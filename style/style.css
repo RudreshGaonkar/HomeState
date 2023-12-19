@@ -1,0 +1,237 @@
+body{
+   background-color: #F3DBCE;
+}
+
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    
+}
+
+.background{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.content-box
+{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    /* vertical-align: middle; */
+}
+
+.main-head {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.hero-content {
+
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.main-head ,.hero-content
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+/* dk why i used this (span)  this is 1st site without looking a tutorial*/
+span{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(31, 30, 30, 0.5);
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.middle-section
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    background-color: #FFCDB2;
+    /* height: 500px; */
+    border-radius: 6px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-bottom: 40px;
+}
+
+.top-bar{
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.list-section{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card{
+    /* width: 400px;
+    height: 350px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: box-shadow 0.4s , padding-left 2s,
+    padding-right 2s ;
+}
+
+.thumbnail{
+
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 5px rgba(31, 30, 30, 0.5);
+}
+
+.btn{
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    background-color: #d59775;
+    vertical-align: middle;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.btn:hover{
+    padding-left: 50px;
+    padding-right: 50px;
+    /* font-size: 16px; */
+}
+
+.bottom-section{
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bottom-box{
+    /* width: 800px;
+    height: 300px; */
+    display: flex;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px rgba(31, 30, 30, 0.5);
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 60px;
+
+}
+
+.img-box{
+    margin: 0;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.pic{
+    width: 200px;
+    height: 100%;
+    border-radius: 8px;
+
+}
+
+.about-section{
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+}
+
+.work-info
+{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    vertical-align: middle;
+}
+
+.about-box{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-right: 80px;
+    vertical-align: middle;
+}
+
+.about-para{
+    width: 300px;
+    height: 200px;
+    margin:0;
+    vertical-align: middle;
+}
+
+.name{
+    margin-top: -28px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    vertical-align: middle;
+}
