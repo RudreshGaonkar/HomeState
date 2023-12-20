@@ -213,11 +213,12 @@ span{
     font-weight: 400;
     margin-left: 80px;
     margin-right: 80px;
+    padding-bottom: 20px;
 }
 
 
 .name{
-    margin-top: -28px;
+    margin-top: 0;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;

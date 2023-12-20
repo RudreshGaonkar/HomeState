@@ -53,15 +53,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 0;
 
     }
 
     .bottom-box{
         display: flex;
-        width: 350px;
+        width: 300px;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
         /* margin-left: 280px;
         margin-right: 280px;
         margin-top: 60px; */
@@ -86,9 +91,8 @@
     
     .about-section{
         text-align: center;
-        flex: 1;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        flex-wrap: wrap;
+        margin: 0;
        
     }
     
@@ -100,7 +104,6 @@
         margin-top: 20px;
         margin-bottom: 30px;
 
-        
     }
     
     .about-box{
@@ -108,6 +111,7 @@
         flex: 1;
         padding-left: 10px;
         padding-right: 16px;
+        margin: 0;
     }
 
     
